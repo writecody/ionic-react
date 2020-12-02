@@ -18,8 +18,8 @@ const CourseGoals: React.FC = () => {
           <IonTitle>{selectedCourseObject ? selectedCourseObject.title : "No course found."}</IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
-        <h2>Course Goals.tsx</h2>
+      <IonContent className='ion-padding'>
+        <p>{selectedCourseObject ? selectedCourseObject.description : null}</p>
       </IonContent>
     </IonPage>
   );

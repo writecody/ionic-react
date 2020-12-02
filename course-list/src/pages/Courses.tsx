@@ -14,9 +14,17 @@ import {
 } from "@ionic/react";
 
 export const COURSE_DATA = [
-  {courseId: "c1", title: "React - The Practical Guide"},
-  {courseId: "c2", title: "Ionic + React - The Complete Guide"},
-  {courseId: "c3", title: "JavaScript for Experts"},
+  {
+    courseId: "c1",
+    title: "React - The Practical Guide",
+    description: "This course will teach you everything you need to know to become an outstanding React developer.",
+  },
+  {
+    courseId: "c2",
+    title: "Ionic + React - The Complete Guide",
+    description: "Have you ever wondered how Ionic and React work together? The answers are here...",
+  },
+  {courseId: "c3", title: "JavaScript for Experts", description: "Think you know everything there is to know about JS? Think again..."},
 ];
 
 const Courses: React.FC = () => {

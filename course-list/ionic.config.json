@@ -1,0 +1,7 @@
+{
+  "name": "course-list",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
